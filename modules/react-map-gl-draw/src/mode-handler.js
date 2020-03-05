@@ -434,6 +434,7 @@ export default class ModeHandler extends PureComponent<EditorProps, EditorState>
     if (isDragging) {
       event.sourceEvent.stopImmediatePropagation();
     }
+    this._modeHandler.handlePan(event, this.getModeProps());
   };
 
   /* HELPERS */
