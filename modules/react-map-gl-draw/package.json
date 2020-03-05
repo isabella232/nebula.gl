@@ -1,8 +1,11 @@
 {
-  "name": "react-map-gl-draw",
+  "name": "@tera/react-map-gl-draw",
+  "publishConfig": {
+    "registry": "https://api.bintray.com/npm/teralytics/internal-npm/"
+  },
   "description": "A lite version editing layer with react",
   "license": "MIT",
-  "version": "0.17.2",
+  "version": "1.0.0",
   "author": "Xintong Xia <xintong@uber.com>",
   "repository": {
     "type": "git",
